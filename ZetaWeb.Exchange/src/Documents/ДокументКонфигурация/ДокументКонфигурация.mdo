@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77fd4116-5c08-47a6-9f82-2c47a4f65407">
+  <producedTypes>
+    <objectType typeId="597d0329-fc3e-48ff-a7e2-3d1ee913e668" valueTypeId="aaf4fba8-f8a3-4fe3-8c40-c9da77069fdc"/>
+    <refType typeId="e0bc016a-68be-45d0-b19e-711b1003735a" valueTypeId="125a9806-5bc8-4f3c-b36d-dc7b08db5a28"/>
+    <selectionType typeId="1d378c7d-e713-4a1e-bff6-4524e676f2c3" valueTypeId="0720f537-1176-4762-89b6-f28f95433cbf"/>
+    <listType typeId="99375c7a-33fb-445f-8b63-f2ba668426c0" valueTypeId="74027347-bf99-4b5f-8d90-9daeb4a896a3"/>
+    <managerType typeId="a8de1acd-2658-43a3-af52-801be1f11352" valueTypeId="dc505091-e5d0-4bd0-98c2-f3e49e8d2fa8"/>
+  </producedTypes>
+  <name>ДокументКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ конфигурация</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументКонфигурация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.РегистрНакопленияКонфигурация</registerRecords>
+  <registerRecords>InformationRegister.РегистрСведенийСРегистраторомКонфигурация</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="075d5ffc-edd9-4c3c-a13c-d2c9f72fe6a6">
+    <producedTypes>
+      <objectType typeId="26af298c-6935-467c-a0e8-e1fbe963990e" valueTypeId="ed4504fe-0dc5-4b2a-880c-9dcc9f0ca54f"/>
+      <rowType typeId="ebc8c73b-1c64-4962-885d-de3cbd196817" valueTypeId="c8ff6f60-1975-4a79-8628-fb1d01f1095d"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cc480f7c-ed6d-4ba4-a869-6e6d15b685e2">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СправочникКонфигурация</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

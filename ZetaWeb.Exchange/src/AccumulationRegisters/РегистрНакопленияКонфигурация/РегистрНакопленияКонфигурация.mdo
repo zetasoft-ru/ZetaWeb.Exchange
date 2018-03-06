@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9235c979-ff51-4d8e-be43-77b45dfdcbd6">
+  <producedTypes>
+    <selectionType typeId="5ec296d8-d6b5-41a0-8b30-adac1d371d1c" valueTypeId="9065f848-9e81-426f-96f1-91aea4ccab2e"/>
+    <listType typeId="f539b8d1-eade-4acb-ab59-92caf9e60218" valueTypeId="60fbb893-a2a4-46a7-869e-76783074f7a2"/>
+    <managerType typeId="467add04-2193-4e24-ac97-494ebc83e747" valueTypeId="279a3ff4-c94e-432c-b4f4-39512086e0df"/>
+    <recordSetType typeId="6f18e591-724f-428e-8634-9bbb44db5836" valueTypeId="24532d9d-21d5-468b-a921-e8cec4753471"/>
+    <recordKeyType typeId="51c6c13c-6beb-49a2-a2bb-309011fa0d12" valueTypeId="0c441863-83d9-4071-909d-7eb69b7c3575"/>
+    <recordType typeId="89cbae41-045d-4737-86f8-ac99a4e2f461" valueTypeId="286e4946-1819-48ff-9ec4-e66329347f94"/>
+  </producedTypes>
+  <name>РегистрНакопленияКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления конфигурация</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4f90293e-cbdb-489a-ab04-a38f794135d4">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0a971710-62cd-4108-b2a5-7b2af7dccfec">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СправочникКонфигурация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

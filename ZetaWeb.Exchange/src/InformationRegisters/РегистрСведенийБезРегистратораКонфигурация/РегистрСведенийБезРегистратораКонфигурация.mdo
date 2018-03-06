@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efa72129-9210-4a34-8455-0d79d3f44200">
+  <producedTypes>
+    <selectionType typeId="a83f8cb7-87ce-42fe-bc19-7aa9c0186e85" valueTypeId="849ff8d7-7f08-4c68-8c37-1d16e72ca101"/>
+    <listType typeId="65931d90-2b5a-4617-a3f5-c438be1c565f" valueTypeId="b0a6e769-5db3-4d17-8e76-e491a64b5549"/>
+    <managerType typeId="433fd704-8cfa-4b73-9573-abd4571c1d99" valueTypeId="af64875f-6e2c-4b3c-885b-75769598e7df"/>
+    <recordSetType typeId="7153bfd2-85a5-4910-bdbd-66c36250c6b6" valueTypeId="cac0e5b0-711e-4a4c-af30-c719f1611c22"/>
+    <recordKeyType typeId="f89ba6b6-95f1-48bc-b142-f24a2e0a3520" valueTypeId="68bfa6c4-4e97-4ea4-bec8-de864a306ec9"/>
+    <recordType typeId="7695f914-08fe-4fe3-bd36-efa33f970900" valueTypeId="d60ca431-92b6-425a-a5e1-d8ad7c3c2768"/>
+    <recordManagerType typeId="0f115e69-ce04-49e5-be31-4ecf0a8b412a" valueTypeId="849498fe-f4e2-4f77-a084-cdef53d99cd1"/>
+  </producedTypes>
+  <name>РегистрСведенийБезРегистратораКонфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр сведений без регистратора конфигурация</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="50df3df3-a4e0-47c3-80e3-c3e6cd489abf">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="2e3fbf1c-c79b-411e-8e78-9515de4c191c">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СправочникКонфигурация</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

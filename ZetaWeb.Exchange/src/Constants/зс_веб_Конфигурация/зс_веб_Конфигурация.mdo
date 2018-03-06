@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745ae830-d968-48da-b26d-1a0433ddbfe3">
+  <producedTypes>
+    <managerType typeId="04a9bd29-8feb-449f-a704-e918489c285e" valueTypeId="3c107c77-b45e-4e96-a15d-e40b6d70438e"/>
+    <valueManagerType typeId="0166b017-dcd8-4a08-8638-d193460d132b" valueTypeId="7ca3b901-a482-42e3-9704-13931e9fe969"/>
+  </producedTypes>
+  <name>зс_веб_Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.ЗетаWEBВидыКонфигураций</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.зс_веб_НастройкиОбменаССайтом</defaultForm>
+  <toolTip>
+    <key>ru</key>
+    <value>Основная конфигурация, из которой выполняется обмен с сайтом</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

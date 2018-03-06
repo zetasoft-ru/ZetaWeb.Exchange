@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0315a49-957b-42f5-928d-fddf1102ea4b">
+  <producedTypes>
+    <selectionType typeId="cb16ac1c-987a-445d-99f5-77b3562fb3bd" valueTypeId="89aed675-d51c-4f8b-bcb2-e58b29837b52"/>
+    <listType typeId="fc457847-5d11-4182-a193-ec148c1c0956" valueTypeId="a65ad479-01ff-4a2a-9623-ee81e1e0a69d"/>
+    <managerType typeId="b07b911d-e895-4fd3-94d2-b0a00c49fbb7" valueTypeId="f6409bbd-e26b-45f8-85aa-043b9f6dee63"/>
+    <recordSetType typeId="4e5281c9-15e1-487e-985f-3ddd67fc2450" valueTypeId="07b00579-eae2-4b9d-b257-3e478df9ccae"/>
+    <recordKeyType typeId="ce7d9d53-f20e-4c69-a45e-ae63889c69d8" valueTypeId="65150696-66e9-43ff-87d6-404b22d0264f"/>
+    <recordType typeId="13baf088-872a-4b65-96c2-9c059008c5b9" valueTypeId="afe2fb59-57b0-4098-b443-4e831ac7f9e3"/>
+    <recordManagerType typeId="12d6d3e5-a646-491c-9e25-64b25038f9db" valueTypeId="b3313444-79f3-40e9-a228-1adf2b89190d"/>
+  </producedTypes>
+  <name>зс_веб_ЗапросыОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы объектов обмена (Zeta Web)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.зс_веб_ЗапросыОбъектовОбмена.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.зс_веб_ЗапросыОбъектовОбмена.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="fdf92e08-e2f9-4e0e-8f89-78e8f8182c45">
+    <name>ИмяМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="08f3492b-ddd3-44ea-84d0-bfa90ab18d3b">
+    <name>РасширенныйИмпорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенный импорт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="520eb55f-74b2-48a6-94ed-8e8f51bc7caf">
+    <name>ИспользоватьРазделителиОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать разделители обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="feae9e0b-ea47-49ea-9064-2fdead21df80">
+    <name>ЗапросПолный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос полный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="39c0fa7b-0158-4712-8535-bd80a3ccae60">
+    <name>ЗапросИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос изменения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2aa9fdd3-3acb-4c81-b77e-3954bbb0db92">
+    <name>ЗапросРазделителиПолный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос разделители полный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="702cc4cb-297c-4dc0-a06a-982dbc3b3911">
+    <name>ЗапросРазделителиИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос разделители изменения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f7ee829a-8d84-4300-982e-9d31b5d1a007">
+    <name>УсловиеРазделителяВПолномОбмене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие разделителя в полном обмене</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ed713548-3fd2-494b-ae4c-97b85221100a">
+    <name>УсловиеРазделителяВОбменеИзменениями</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие разделителя в обмене изменениями</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b1439bae-63ad-4eea-a30d-1d85a57f0287">
+    <name>НаПоддержке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На поддержке</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c23e6fb5-f67b-408e-862f-0f4b1c42c992">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="45d7a5f6-e57d-425a-9b94-dbf432eb54ac">
+    <name>ВидКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид конфигурации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЗетаWEBВидыКонфигураций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0b285301-3530-42ac-9b75-7608651c0f79">
+    <name>ОбъектОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект обмена</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.зс_веб_ОбъектыОбмена</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="c224b0c3-bd82-419e-ac5e-456c1484075d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c4d3d847-96fd-4307-94af-d0cb5455d0fd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

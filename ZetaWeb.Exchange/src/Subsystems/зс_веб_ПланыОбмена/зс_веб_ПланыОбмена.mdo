@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd0ef6c7-6d13-4bec-a287-b00a0a7de67d">
+  <name>зс_веб_ПланыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы обмена (Zeta Web)</value>
+  </synonym>
+  <comment>Используется только при первом внедрении</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb</content>
+  <content>ExchangePlan.зс_веб_ОбменДаннымиКонфигурация</content>
+  <content>8edb9d34-417e-4ac9-b32e-84c49e582375</content>
+  <content>04ce8dee-2918-4b2c-af46-d665b6b188d3</content>
+  <content>88f90695-c035-4fbc-baa5-a0d3d254b6be</content>
+  <content>e6d67019-66cb-4b19-8079-01342e88baaa</content>
+  <content>e31ccb66-9bed-40cf-804d-72c597d193a8</content>
+  <content>c71d45fd-d61b-4878-b899-ca21a1cad193</content>
+  <content>d1cdfdc2-a092-4c08-86ff-8149cf8aa010</content>
+  <content>55d19cd5-4d7c-4893-b63d-80478d0a3627</content>
+</mdclass:Subsystem>

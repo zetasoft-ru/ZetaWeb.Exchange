@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a595a81-1221-4b51-ab2e-7dc5d1fe0479" thisNode="722d428f-a73d-4eac-805e-2cbe04ea7c3b">
+  <producedTypes>
+    <objectType typeId="d724d1f8-3d24-4f6d-b125-3c9cbc628d75" valueTypeId="56548b0e-d980-4509-9640-1b3ae55b2915"/>
+    <refType typeId="294f8f06-63e3-4fcd-8795-784a95cf98ec" valueTypeId="e890d6ab-fe62-4d50-8b62-a1d63528b95a"/>
+    <selectionType typeId="3b78012a-47ad-4e82-81a8-f53101e9a80e" valueTypeId="5b777385-7977-40ec-9737-68cdf1bce9c6"/>
+    <listType typeId="d87da375-9f3e-4fb4-884c-8782189b2dfd" valueTypeId="be44546f-fcd7-4de9-8386-db43cda69275"/>
+    <managerType typeId="ed521d93-f725-4de3-b58e-d8f61501e9c8" valueTypeId="1a6b88ca-c90a-4c8f-9509-7487f175dfef"/>
+  </producedTypes>
+  <name>зс_веб_ОбменДаннымиЗетаWeb</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтом объектами конфигурации Зета Web (Zeta Web)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <codeLength>47</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>ChartOfCharacteristicTypes.ПланВидовХарактеристикЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>AccumulationRegister.РегистрНакопленияЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.ДокументЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РегистрСведенийБезРегистратораЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.РегистрСведенийСРегистраторомЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СправочникЗетаВеб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb.Form.ФормаСписка</defaultListForm>
+  <forms uuid="0e92665b-c06b-421f-8874-4929cdaa2192">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

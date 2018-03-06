@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3736ce09-a3de-4c94-8773-9ccdab1f476f">
+  <name>Обмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.зс_веб_ОбменДаннымиОбщий</content>
+  <content>CommonModule.зс_веб_ОбменДаннымиПовтИсп</content>
+  <content>Catalog.зс_веб_ОбъектыОбмена</content>
+  <content>InformationRegister.зс_веб_ЗапросыОбъектовОбмена</content>
+  <content>InformationRegister.зс_веб_ЗначенияНастроекОбмена</content>
+  <content>CommonModule.зс_веб_ОбменДаннымиВыгрузка</content>
+  <content>Enum.зс_веб_ИменаПлановОбмена</content>
+  <content>1a3f974a-0faa-45b9-acb4-b4cc157d5302</content>
+  <content>d83eeae5-824c-4d29-8f16-62081563e6ea</content>
+  <content>CommonModule.зс_веб_ОбменДаннымиЗагрузка</content>
+  <content>Catalog.зс_веб_НастройкиОбмена</content>
+  <content>InformationRegister.ЗетаWEBЛогОбменаССайтом</content>
+  <content>Enum.ЗетаWEBТипыОбъектовКонфигурации</content>
+  <content>CommonModule.зс_веб_ОбменДаннымиПереопределеляемый</content>
+  <content>CommonModule.зс_веб_РегламентныеЗаданияСервер</content>
+  <content>ScheduledJob.зс_веб_ОбменДаннымиССайтом</content>
+  <content>Catalog.ЗетаWEBВидыКонфигураций</content>
+  <content>Constant.зс_веб_Конфигурация</content>
+  <content>Constant.ЗетаWEBАдресСервисаОбменаДанными</content>
+  <content>Constant.ЗетаWEBПользовательСервисаОбменаДанными</content>
+  <content>Constant.ЗетаWEBПарольСервисаОбменаДанными</content>
+  <content>a913430a-1738-409a-9371-f5c0bfd95c2a</content>
+  <content>CommonForm.зс_веб_НастройкиОбменаССайтом</content>
+  <content>CommonCommand.ОткрытьФормуНастроекОбменаССайтом</content>
+  <content>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb</content>
+  <content>e31ccb66-9bed-40cf-804d-72c597d193a8</content>
+  <parentSubsystem>Subsystem.ЗетаСофт.Subsystem.Добавленные</parentSubsystem>
+</mdclass:Subsystem>

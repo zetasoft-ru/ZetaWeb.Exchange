@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc76cd71-57c5-44d4-884e-17cba7555fbe">
+  <name>ТестовыеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовые объекты</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СправочникЗетаВеб</content>
+  <content>Catalog.СправочникКонфигурация</content>
+  <content>84b7baa9-0eba-45bf-b919-427acb243390</content>
+  <content>d0e1fb91-bc77-4759-96fe-fb34855d3664</content>
+  <content>554f1254-85c5-4dd1-b72d-256bc8a89a9f</content>
+  <content>Document.ДокументЗетаВеб</content>
+  <content>Document.ДокументКонфигурация</content>
+  <content>5f728c37-2341-4e33-a2b8-6e95f7e25c4f</content>
+  <content>3070a5de-9335-4225-b4ee-e33f56f4bbbd</content>
+  <content>ef951d7e-cc35-49a8-bb67-4f89e0b63f89</content>
+  <content>ChartOfCharacteristicTypes.ПланВидовХарактеристикЗетаВеб</content>
+  <content>ChartOfCharacteristicTypes.ПланВидовХарактеристикКонфигурация</content>
+  <content>21dc11f4-2843-480c-af49-526c6c6c3940</content>
+  <content>44c85fcd-c76c-4f50-9b06-2e52aae1d7c0</content>
+  <content>2e2110a7-f8da-4d33-88d8-6410e0bfbc8a</content>
+  <content>InformationRegister.РегистрСведенийБезРегистратораЗетаВеб</content>
+  <content>InformationRegister.РегистрСведенийБезРегистратораКонфигурация</content>
+  <content>7c94888c-1529-4697-b59a-eeb15d755a71</content>
+  <content>3808201c-3788-4e45-8061-eb9dd2e45973</content>
+  <content>e3afe933-c0ff-4f4f-beb7-46bac4349332</content>
+  <content>InformationRegister.РегистрСведенийСРегистраторомКонфигурация</content>
+  <content>InformationRegister.РегистрСведенийСРегистраторомЗетаВеб</content>
+  <content>321586ea-9b2d-405e-a6ab-68bf1a175eef</content>
+  <content>c2eedff6-8446-492c-a384-9f9289c1f691</content>
+  <content>2566af4a-d626-4fb8-b7d4-55b650a0dc06</content>
+  <content>AccumulationRegister.РегистрНакопленияЗетаВеб</content>
+  <content>AccumulationRegister.РегистрНакопленияКонфигурация</content>
+  <content>bfe90ab6-0355-4050-bf8f-68b43510c282</content>
+  <content>e77ae30f-b1b9-436b-a897-f2e601245d4e</content>
+  <content>11435ed8-1d60-4e19-bfa3-be54f951f38f</content>
+</mdclass:Subsystem>

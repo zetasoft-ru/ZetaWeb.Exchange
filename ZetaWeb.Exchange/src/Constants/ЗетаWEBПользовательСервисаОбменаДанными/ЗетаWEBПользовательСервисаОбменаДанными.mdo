@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f51aa6-148e-4ce8-82e2-f92f4e2730a5">
+  <producedTypes>
+    <managerType typeId="9b5a8943-b721-4c90-b1cf-6c12c687d5d6" valueTypeId="de8e4bd4-3d9b-4fe7-b16b-7d7ca8c17d1b"/>
+    <valueManagerType typeId="a445f013-5fdd-4af3-a20b-82877bfd1120" valueTypeId="db0af7c2-23a0-4bb4-9ddb-acdf36405bf0"/>
+  </producedTypes>
+  <name>ЗетаWEBПользовательСервисаОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь сервиса обмена данными (Zeta Web)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.зс_веб_НастройкиОбменаССайтом</defaultForm>
+  <toolTip>
+    <key>ru</key>
+    <value>Логин пользователя сервиса обмена данными, выданный при формировании лицензии на сайт</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

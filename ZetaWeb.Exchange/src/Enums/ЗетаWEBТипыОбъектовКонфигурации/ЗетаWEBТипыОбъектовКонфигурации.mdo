@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a3aa054-21ca-4a86-991b-ae067047c1c9">
+  <producedTypes>
+    <refType typeId="01801cfd-73f5-481e-931e-492abbc7f3c0" valueTypeId="fa4056f9-3dcd-4f32-9a45-5d9c814ba9c2"/>
+    <listType typeId="e121e0ff-293c-4e8b-b693-919e96d602db" valueTypeId="ecf9faad-b1af-435d-a21f-9215449f0cc8"/>
+    <managerType typeId="b998ce8d-d452-4fc1-8d9c-2b2207e3cbc3" valueTypeId="13582444-e299-4729-b774-090973457aa1"/>
+  </producedTypes>
+  <name>ЗетаWEBТипыОбъектовКонфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов конфигурации (Zeta Web)</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b8ea12b2-569c-4734-9a52-f31150373de7">
+    <name>Спр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спр</value>
+    </synonym>
+    <comment>Справочник</comment>
+  </enumValues>
+  <enumValues uuid="936c5c08-f2ec-4c28-b2af-a126957eb00d">
+    <name>Док</name>
+    <synonym>
+      <key>ru</key>
+      <value>Док</value>
+    </synonym>
+    <comment>Документ</comment>
+  </enumValues>
+  <enumValues uuid="63b42960-13b6-4db0-96b6-e1b18669bf98">
+    <name>ПВХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПВХ</value>
+    </synonym>
+    <comment>План видов характеристик</comment>
+  </enumValues>
+  <enumValues uuid="90151abd-0d86-4db4-895f-2e33031525c0">
+    <name>РегНак</name>
+    <synonym>
+      <key>ru</key>
+      <value>РегНак</value>
+    </synonym>
+    <comment>Регистр накопления</comment>
+  </enumValues>
+  <enumValues uuid="ee7d43fd-57ec-44e5-8715-78f1620b6f48">
+    <name>РегСв</name>
+    <synonym>
+      <key>ru</key>
+      <value>РегСв</value>
+    </synonym>
+    <comment>Регистр сведений</comment>
+  </enumValues>
+  <enumValues uuid="0efa4a88-c5ac-4cd6-99cf-37b2cc771fe7">
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <comment>Табличная часть</comment>
+  </enumValues>
+</mdclass:Enum>

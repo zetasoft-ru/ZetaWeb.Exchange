@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b76a288-9c26-4430-aac0-03384848f823">
+  <producedTypes>
+    <objectType typeId="d2c8cac5-0b36-4248-8843-109b83ac69c0" valueTypeId="64d87059-28d7-446d-8761-4f5ef0d3ffc2"/>
+    <refType typeId="ec162a34-bddf-41f1-b2a1-05afca5afb6d" valueTypeId="fe823f7b-eabb-497f-8f65-8c87a51eab11"/>
+    <selectionType typeId="711ad14f-471e-4b81-a2d0-39a202bd6c61" valueTypeId="1ee67b79-b1b4-45d7-ab18-6a57b36c0f5a"/>
+    <listType typeId="cd90967c-b764-4fc5-8f11-86550c820a2c" valueTypeId="e17bb7cd-0597-443c-8489-b744a202e182"/>
+    <managerType typeId="fd10cf00-801a-4c8e-a7ef-52d3518f7e77" valueTypeId="95a8fcdc-cdd6-463a-b807-014af2e518f2"/>
+    <containerType typeId="4719dce5-521b-4534-a272-6f9f34df65e8" valueTypeId="fe10470a-3b74-4b77-abc8-c400695552fa"/>
+  </producedTypes>
+  <name>ПланВидовХарактеристикЗетаВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>План видов характеристик зета веб</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристикЗетаВеб.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ПланВидовХарактеристикЗетаВеб.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

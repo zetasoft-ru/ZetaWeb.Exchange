@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:bfe90ab6-0355-4050-bf8f-68b43510c282</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:e77ae30f-b1b9-436b-a897-f2e601245d4e</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.РегистрНакопленияЗетаВеб.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.РегистрНакопленияКонфигурация.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:11435ed8-1d60-4e19-bfa3-be54f951f38f</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

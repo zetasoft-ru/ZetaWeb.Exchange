@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32f04b9-5b29-42db-955b-c6f6ccaeea81">
+  <producedTypes>
+    <selectionType typeId="875f6ce0-8399-45ae-9f3a-52f501587ed8" valueTypeId="8120ca59-b311-42e5-a398-aad0d6972951"/>
+    <listType typeId="504a34c8-d07f-4486-aa1c-8739b216cf2b" valueTypeId="1ccc9940-c15c-4059-8cc1-1afff1e77490"/>
+    <managerType typeId="7832854c-6621-4750-8c2d-89688b4f06d3" valueTypeId="9762f58c-fafd-45a8-8480-b12cba3ad6d9"/>
+    <recordSetType typeId="8bdd13fd-b5fa-4588-b110-2ce1b7061f66" valueTypeId="a210d7c6-52c3-4d14-b505-d7fffc6e3e0c"/>
+    <recordKeyType typeId="6ae30992-d48f-4903-8bd3-f7b01106fec5" valueTypeId="3e6bc646-f699-49ef-a310-8fc59e935802"/>
+    <recordType typeId="271419be-c4c4-440d-9db6-3232da1ff021" valueTypeId="94ab4e2c-f291-4ec4-ac19-24c45b52e346"/>
+    <recordManagerType typeId="2c326112-90df-4487-a348-bfe35c9de51f" valueTypeId="9d82c82e-139e-42fa-8985-4c71158b1b06"/>
+  </producedTypes>
+  <name>РегистрСведенийБезРегистратораЗетаВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр сведений без регистратора зета веб</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="56236ccd-af82-4b28-8779-1e615619a307">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="97d48161-135a-4d81-b48c-8586eb4bd812">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СправочникЗетаВеб</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e99d12-0431-4424-8b40-c807bdec97c1">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b826d54a-9836-4fa3-82b2-51cb67c5706b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="069790ed-dca6-49ce-9177-6b85c13115d5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="841119d4-7560-4a5f-a129-795e292ed738"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8a898f44-5f2c-4c5a-845e-0800c80b532f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0ecd5f5f-8635-4041-8a9a-70c29f110c4c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e4ba31a9-4b37-4b5b-b679-845cbf85be45"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>UseWithWarnings</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="924850c3-9bd2-4f76-b9ef-eb55515f7339">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЗетаСофт</subsystems>
+  <subsystems>Subsystem.ТестовыеОбъекты</subsystems>
+  <subsystems>Subsystem.зс_веб_ПланыОбмена</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonTemplates>CommonTemplate.Заметки</commonTemplates>
+  <commonModules>CommonModule.зс_веб_ОбменДаннымиПовтИсп</commonModules>
+  <commonModules>CommonModule.зс_веб_ОбменДаннымиОбщий</commonModules>
+  <commonModules>CommonModule.зс_веб_ОбменДаннымиЗагрузка</commonModules>
+  <commonModules>CommonModule.зс_веб_ОбменДаннымиВыгрузка</commonModules>
+  <commonModules>CommonModule.зс_веб_ОбменДаннымиПереопределеляемый</commonModules>
+  <commonModules>CommonModule.зс_веб_РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.зс_всг_ЗапросHTTP</commonModules>
+  <commonModules>CommonModule.зс_веб_РаботаСJSON</commonModules>
+  <commonModules>CommonModule.зс_веб_ОбщегоНазначенияКлиентСервер</commonModules>
+  <exchangePlans>ExchangePlan.зс_веб_ОбменДаннымиЗетаWeb</exchangePlans>
+  <exchangePlans>ExchangePlan.зс_веб_ОбменДаннымиКонфигурация</exchangePlans>
+  <scheduledJobs>ScheduledJob.зс_веб_ОбменДаннымиССайтом</scheduledJobs>
+  <commonCommands>CommonCommand.ОткрытьФормуНастроекОбменаССайтом</commonCommands>
+  <constants>Constant.зс_веб_Конфигурация</constants>
+  <constants>Constant.ЗетаWEBАдресСервисаОбменаДанными</constants>
+  <constants>Constant.ЗетаWEBПользовательСервисаОбменаДанными</constants>
+  <constants>Constant.ЗетаWEBПарольСервисаОбменаДанными</constants>
+  <commonForms>CommonForm.зс_веб_НастройкиОбменаССайтом</commonForms>
+  <catalogs>Catalog.зс_веб_НастройкиОбмена</catalogs>
+  <catalogs>Catalog.зс_веб_ОбъектыОбмена</catalogs>
+  <catalogs>Catalog.ЗетаWEBВидыКонфигураций</catalogs>
+  <catalogs>Catalog.СправочникЗетаВеб</catalogs>
+  <catalogs>Catalog.СправочникКонфигурация</catalogs>
+  <documents>Document.ДокументЗетаВеб</documents>
+  <documents>Document.ДокументКонфигурация</documents>
+  <enums>Enum.ЗетаWEBТипыОбъектовКонфигурации</enums>
+  <enums>Enum.зс_веб_ИменаПлановОбмена</enums>
+  <informationRegisters>InformationRegister.ЗетаWEBЛогОбменаССайтом</informationRegisters>
+  <informationRegisters>InformationRegister.зс_веб_ЗапросыОбъектовОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.зс_веб_ЗначенияНастроекОбмена</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрСведенийБезРегистратораЗетаВеб</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрСведенийБезРегистратораКонфигурация</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрСведенийСРегистраторомЗетаВеб</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрСведенийСРегистраторомКонфигурация</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопленияЗетаВеб</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РегистрНакопленияКонфигурация</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристикЗетаВеб</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ПланВидовХарактеристикКонфигурация</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

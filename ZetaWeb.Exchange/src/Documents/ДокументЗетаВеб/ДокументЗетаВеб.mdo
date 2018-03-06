@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b3c1386-eb63-4c64-949e-9053d8704a88">
+  <producedTypes>
+    <objectType typeId="555cbb97-dc0c-4de0-b877-a438380107bb" valueTypeId="7e90e4d3-114a-4726-b582-4b01734fd4e8"/>
+    <refType typeId="ded24d53-5520-49d3-9921-1c7a3df872f0" valueTypeId="5e01e992-e797-4812-a7cd-3dadd9d95578"/>
+    <selectionType typeId="f451fb98-4f23-40a9-abc7-ccede06058b5" valueTypeId="c33b1384-c685-48e5-9308-6b568593b4da"/>
+    <listType typeId="5b21efb7-b8bf-4722-becd-b25ad073a75e" valueTypeId="adba86fc-f4b8-4378-95b5-3ecb0f1eac09"/>
+    <managerType typeId="3c6b406a-2e74-4d78-8d68-1fa1f09dae6e" valueTypeId="48eb3e17-fe02-4b9f-9eff-98044a5e61eb"/>
+  </producedTypes>
+  <name>ДокументЗетаВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ зета веб</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументЗетаВеб.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.РегистрНакопленияЗетаВеб</registerRecords>
+  <registerRecords>InformationRegister.РегистрСведенийСРегистраторомЗетаВеб</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="07f3d89f-ea78-4ab2-88bc-cb30d595374c">
+    <producedTypes>
+      <objectType typeId="7526e3bf-c3ab-44af-a5aa-b509e8ec56a9" valueTypeId="ce36e40e-c39a-422b-b9be-4eccea4f1780"/>
+      <rowType typeId="24d0b3d5-1d11-40f9-88f3-0062539f9be6" valueTypeId="7498697f-db44-463f-89c6-d54347e4a8fb"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="3e454aae-25c2-4142-943e-819cd6fbfe1c">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.СправочникЗетаВеб</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

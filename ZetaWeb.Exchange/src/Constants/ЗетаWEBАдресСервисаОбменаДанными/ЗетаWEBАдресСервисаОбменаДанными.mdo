@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bade86cc-5d60-4467-a8a1-b7cb4f424a61">
+  <producedTypes>
+    <managerType typeId="6d5d9f2c-d4a6-434f-86d8-d0865851ef6f" valueTypeId="d57bb1fb-d7a4-4144-8b83-ea322c14e470"/>
+    <valueManagerType typeId="863dda70-e39b-49e1-8cf7-71831b55e3e1" valueTypeId="e1a0014f-5964-49ba-bba8-5d527440e251"/>
+  </producedTypes>
+  <name>ЗетаWEBАдресСервисаОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервиса обмена данными (Zeta Web)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.зс_веб_НастройкиОбменаССайтом</defaultForm>
+  <toolTip>
+    <key>ru</key>
+    <value>Адрес веб-сервиса обмена данными с сайтом вида: http://site_name.ru/transferservice/transfer1c2web.asmx?WSDL</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

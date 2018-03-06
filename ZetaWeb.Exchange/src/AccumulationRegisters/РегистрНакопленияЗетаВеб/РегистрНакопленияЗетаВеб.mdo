@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="265fcdc2-b1a2-461e-ab0b-22ce43abe3c9">
+  <producedTypes>
+    <selectionType typeId="6a7b8612-15d6-4deb-9df5-df907e178196" valueTypeId="0e39e7ad-e9bc-4bc8-8a51-f3e0b91cc1dd"/>
+    <listType typeId="d7134e75-879a-4b04-a9e6-c97d9535c9f4" valueTypeId="677335c5-8e8e-4798-91b9-671209890199"/>
+    <managerType typeId="0f733099-b61a-43ed-bd95-e5667a28c682" valueTypeId="fc72871d-31b0-48e7-ace1-7fc6d2b0c0c7"/>
+    <recordSetType typeId="6eab78cc-4d34-4880-a379-f3bf4e03a6a2" valueTypeId="84fdff59-a2fc-4d99-af51-6c318198380e"/>
+    <recordKeyType typeId="e1ec0149-8def-4fd9-87f6-ef72d4ea2923" valueTypeId="a450a0a1-0ff6-448e-8623-6cea90427528"/>
+    <recordType typeId="9b99211f-c561-4286-bd64-ebba3133dca4" valueTypeId="7823348b-8222-4a24-865b-7bd2e94e39cc"/>
+  </producedTypes>
+  <name>РегистрНакопленияЗетаВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления зета веб</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="54d636e1-6886-4ada-90f8-38a16f46d746">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="466c5063-fae6-4807-a24a-3b9c31effc02">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СправочникЗетаВеб</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
